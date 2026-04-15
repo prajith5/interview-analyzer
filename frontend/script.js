@@ -21,6 +21,8 @@ async function analyze() {
         <p><b>Communication:</b> ${data.communication}</p>
         <p><b>Confidence:</b> ${data.confidence}</p>
         <p><b>Technical:</b> ${data.technical}</p>
+        <p><b>ML Score:</b> ${data.ml_score}</p>
+        <p><b>Prediction:</b> ${data.prediction}</p>
         <p><b>Feedback:</b> ${data.feedback.join(", ")}</p>
     `;
 }
